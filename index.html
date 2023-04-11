@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/x-icon" href="Style and Images/icons/lightning.ico">
+  <link rel="stylesheet" type="text/css" href="Style and Images/css/style.css">
+  <title>Energy</title>
+</head>
+<body>
+  <header class="header">
+    <div class="logo">
+      <img src="Style and Images/icons/lightning.ico" alt="Energy Logo" class="logo">
+      <a href="index.html"class="logo">Energy</a>
+    </div>
+    <nav class="navigation">
+      <ul class="nav-list">
+        <li class="nav-item"><a href="#" class="active">Home</a></li>
+        <li class="nav-item"><a href="#">About Us</a></li>
+      </ul>
+    </nav>
+    <div class="theme-toggle">
+      <label class="switch">
+        <input type="checkbox">
+        <span class="slider round"></span>
+      </label>
+      <div class="toggle-label"></div>
+    </div>
+  </header>  
+  <div class="container">
+    <div class="sensors">
+      <div class="sensor">
+        <div class="sensor-icon"><i class="fas fa-thermometer-half"></i></div>
+        <div class="sensor-value">25°C</div>
+        <div class="sensor-label">Temperature</div>
+      </div>
+      <div class="sensor">
+        <div class="sensor-icon"><i class="fas fa-thermometer-half"></i></div>
+        <div class="sensor-value">77°F</div>
+        <div class="sensor-label">Temperature</div>
+      </div>
+      <div class="sensor">
+        <div class="sensor-icon"><i class="fas fa-tint"></i></div>
+        <div class="sensor-value">50%</div>
+        <div class="sensor-label">Humidity</div>
+      </div>
+      <div class="sensor">
+        <div class="sensor-icon"><i class="fas fa-bolt"></i></div>
+        <div class="sensor-value">230V</div>
+        <div class="sensor-label">Supply Voltage</div>
+      </div>
+      <div class="sensor">
+        <div class="sensor-icon"><i class="fas fa-bolt"></i></div>
+        <div class="sensor-value">10A</div>
+        <div class="sensor-label">Current Strength</div>
+      </div>
+      <div class="sensor">
+        <div class="sensor-icon"><i class="fas fa-fire"></i></div>
+        <div class="sensor-value">2300W</div>
+        <div class="sensor-label">Consumed Power</div>
+      </div>
+      <div class="sensor">
+        <div class="sensor-icon"><i class="fas fa-fire"></i></div>
+        <div class="sensor-value">14$</div>
+        <div class="sensor-label">Price</div>
+      </div>
+    </div>
+    <div class="schedule">
+      <div class="schedule-header">
+        <div class="schedule-title">Consumption Schedule</div>
+        <div class="schedule-controls">
+          <div class="schedule-param">
+            <div class="param-label">Price per Kilowatt</div>
+            <input type="number" class="param-input" value="0.12" step="0.01">
+            <div class="param-unit">$/kWh</div>
+          </div>
+          <div class="schedule-param">
+            <div class="param-label">Start Time</div>
+            <input type="time" class="param-input" value="08:00">
+          </div>
+          <div class="schedule-param">
+            <div class="param-label">End Time</div>
+            <input type="time" class="param-input" value="20:00">
+          </div>
+        </div>
+      </div>
+      <div class="schedule-chart"></div>
+    </div>
+  </div>  
+  <!--<script src="JavaScript/js.js"></script>-->
+  <script src="JavaScript/mode.js"></script>
+</body>
+</html>
