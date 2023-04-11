@@ -3,7 +3,7 @@ Interface for ESP32 Energy monitor
 
 light theme
 
-![изображение](https://user-images.githubusercontent.com/94782611/231266554-5cdd28e5-dc65-4957-853a-0f70925f676e.png)
+![изображение](https://user-images.githubusercontent.com/94782611/231276596-9adabe95-f397-4edf-917a-103a3b8c5923.png)
 
 
 Dark theme
