@@ -8,4 +8,5 @@ light theme
 
 Dark theme
 
-![изображение](https://user-images.githubusercontent.com/94782611/231266603-aa2095cc-0140-47a0-bae8-6ae65fd523bc.png)
+![изображение](https://user-images.githubusercontent.com/94782611/231277614-e635c4cf-876b-48ff-ad84-1348cf7ad9fb.png)
+
